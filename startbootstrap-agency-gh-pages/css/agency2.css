@@ -160,7 +160,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand.active {
   color: #354397;
 }
-.navbar-custom .navbar-collapse {
+.navbar-custom {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
@@ -199,15 +199,15 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
-    padding: 25px 0;
+    background-color: #222222;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 3em;
+    font-size: 1.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
